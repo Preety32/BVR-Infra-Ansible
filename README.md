@@ -1,4 +1,8 @@
 # BVR-Infra-Ansible
+
+## Introduction:
+This repository conatins the Ansible playbook which is used to create a Infrastructure with the help of Ansible in Azure.This Playbook create a resource group, virtual network, add subnet,public IP address, network security group,virtual network interface card,Create the Linux VM.
+
 - name: Create an Azure Linux VM 
 
   hosts: localhost 
